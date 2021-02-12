@@ -1,0 +1,47 @@
+/* bootstrap header*/
+#home,#about,#portfolio,#contact{
+	padding-top:70px;
+}
+#home{
+	padding:48vh 0;
+	background:url(https://images.unsplash.com/photo-1437823055869-5309288494c8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=e999fb6dcdcda3cfda2f6f4797c2ca9e) no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#about{
+	padding:48vh 0;
+		background:url(https://images.unsplash.com/photo-1427466920301-a96b3cadc6c8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=16e1a17a0fc83b0f49f2389a395287d5) no-repeat;
+	background-size:cover;
+	background-attachment:fixed
+		;
+}
+#portfolio{
+	background-color:rgba(0,0,0,0);
+	background:url('https://images.unsplash.com/photo-1439761414027-4f4ebeeda3a3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c0d2c6cca8f2b6de84c3c8999ea453f2') no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.mainFooter{	
+	box-shadow:0 0px 62px -12px #737373;
+	background-color:#f8f8f8;
+	padding:20px 0;
+}
+.projectPlaceholders{
+	height: 300px;
+	margin-bottom: 30px;
+	background: rgba(152, 170, 224, 0.15);
+	border: 1px solid white;
+	line-height: 300px;
+	text-align: center;
+	color: white;
+}
+#contact{
+	padding:30vh 0 40vh;
+	background:url(https://images.unsplash.com/photo-1441943250180-ea34e997ffad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=7a8287157709e8f7833b68595a1298db) no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+.white-text{
+	color:white;
+}
